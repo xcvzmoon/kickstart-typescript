@@ -1,13 +1,16 @@
 {
   "compilerOptions": {
+    "module": "preserve",
+    "moduleResolution": "bundler",
     "moduleDetection": "force",
-    "module": "Preserve",
     "resolveJsonModule": true,
     "allowJs": true,
-    "esModuleInterop": true,
+    "esmoduleInterop": true,
     "isolatedModules": true,
     "declaration": true,
     "declarationMap": true,
-    "strict": true
-  }
+    "types": ["node"]
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
