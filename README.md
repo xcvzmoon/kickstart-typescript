@@ -3,7 +3,7 @@
 ## Usage
 
 ```sh
-pnpm dlx giget@latest gh:xcvzmoon/kickstart-typescript my-project --install
+pnpx giget gh:xcvzmoon/kickstart-typescript my-app --install
 ```
 
 ## Note
